@@ -1,0 +1,100 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav img{
+    height: 30px;
+    border-radius: 50px;
+}
+main{
+width: 50%;
+padding: 2em;
+margin: auto;
+text-align: center;
+position: relative;
+
+}
+
+main img{
+    width: 272px;
+}
+input{
+    width: 80%;
+    padding: 1em;
+    border-radius: 50px;
+    border: 1px solid rgb(219, 215, 215);
+    outline: 0;
+}
+.s-box .search-icon{
+    width: 20px;
+    opacity: .4;
+    position: absolute;
+    top: 140px;
+    left: 95px;
+}
+.s-box .mic-icon{
+    width: 14px;
+    position: absolute;
+    top: 140px;
+    right: 95px;
+}
+.main:hover{
+    box-shadow: 0 0 10px 2px rgb(224, 221, 221);
+}
+.button-container{
+    padding: 1em;
+    border: none;
+}
+button{
+    margin: 5px;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+    background:rgb(250, 248, 248);
+}
+.google-offered p a{
+     margin: 0;
+     padding: 5px;
+     text-decoration: none;
+}
+footer{
+    background: #f2f2f2;
+}
+footer h4{
+    color: rgba(0,0,0, 0.54);
+    font-size: 15px;
+    line-height: 39.5px;
+    font-weight: 400;
+    padding-left: 29px;
+    border: 1px solid #eee;
+}
+footer a{
+    color: #5f6368;
+    display: inline-block;
+    padding: 12px 11.3px;
+    font-size: 14px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.links{
+    border-top: 1px solid #ddd;
+    display: flex;
+    text-decoration: none;
+}
+.link-1{
+    padding-left: 18.7px;
+    flex: 1;
+    margin: 8%;
+
+}
+.link-2{
+    padding-right: 18.7px;
+    margin: 8%;
+}
